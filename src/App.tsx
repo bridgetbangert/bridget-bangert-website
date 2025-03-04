@@ -8,20 +8,16 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="aboutme" element={<AboutMe />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Projects />} />
-
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
-          <Route path="*" element={<NoMatch />} />
-        </Route>
-      </Routes>
+        <Routes>
+            <Route path="/" element={<Layout />}>
+                <Route index element={<Home />} />
+                <Route path="aboutme" element={<AboutMe />} />
+                <Route path="blog" element={<Blog />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="*" element={<NoMatch />} />
+            </Route>
+        </Routes>
     </div>
   );
 }
