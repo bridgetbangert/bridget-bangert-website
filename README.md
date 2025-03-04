@@ -1,4 +1,6 @@
-# [Bridget's Personal Website](www.bridgetbangert.com)
+# Bridget's Personal Website
+
+[Link](www.bridgetbangert.com)
 
 Hi everyone, I have never attempted to dive into the world of front-end development, so I thought I would give it a try. It has been a lot of fun so far!
 
