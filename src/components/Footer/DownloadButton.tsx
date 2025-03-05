@@ -18,7 +18,7 @@ const DownloadButton = () => {
   };
 
   return (
-    <a href={"assets/BangertBridgetResume.pdf?url"} download="BridgetBangertResume" target='_blank'>
+    <a download="BridgetBangertResume" target='_blank'>
       <button
         className="cursor-pointer bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-1 px-2 rounded inline-flex items-center"
         onClick={DownloadResume}
