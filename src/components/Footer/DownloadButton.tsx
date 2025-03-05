@@ -2,7 +2,7 @@ const DownloadButton = () => {
 
   const DownloadResume = () => {
     // using Java Script method to get PDF file
-    fetch("public/assets/BangertBridgetResume.pdf").then((response) => {
+    fetch("assets/BangertBridgetResume.pdf?url").then((response) => {
         response.blob().then((blob) => {
         
             // Creating new object of PDF file
@@ -18,7 +18,7 @@ const DownloadButton = () => {
   };
 
   return (
-    <a href={"public/assets/BangertBridgetResume.pdf"} download="BridgetBangertResume" target='_blank'>
+    <a href={"assets/BangertBridgetResume.pdf?url"} download="BridgetBangertResume" target='_blank'>
       <button
         className="cursor-pointer bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-1 px-2 rounded inline-flex items-center"
         onClick={DownloadResume}

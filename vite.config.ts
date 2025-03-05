@@ -6,9 +6,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/bridget-bangert-website/',
+  base: '/',
   plugins: [
-    react(),
+    [react()],
     tailwindcss(),
     vue()
   ],
@@ -16,8 +16,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
-  },
-  server: {
-    port: 3000
   }
 })

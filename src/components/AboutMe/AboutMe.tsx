@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
             <img 
                 className = "object-center h-50 rounded-full shadow-xl shadow-blue-gray-900/50 border-8 border-double border-pink-600" 
-                src="public/assets/avatar.jpg" 
+                src={"assets/avatar.jpg?raw=true"}
                 alt="Image Unable To Be Displayed"
             />
         </div>
