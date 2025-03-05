@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vite-deploy-demo/',
+  base: '/bridget-bangert-website/',
   plugins: [
     react(),
     tailwindcss(),
